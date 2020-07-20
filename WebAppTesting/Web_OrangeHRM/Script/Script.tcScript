@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="MainDriver" key="{0674E0C6-4240-4723-A9BC-F47FBBA8E887}" path="MainDriver.js" />
+		<child name="Test" key="{62D0C19D-8DC2-4286-9A70-2E9CA9222BBD}" path="Test.js" />
+		<child name="Login" key="{C83E110A-FF3F-46A0-A23A-80D453CD744D}" path="Login.js" />
+		<child name="Logout" key="{D8B92876-72ED-4B58-BE42-609CA7BDF914}" path="Logout.js" />
+		<child name="CloseBrowser" key="{B22E89E4-59F5-4B26-9DA4-F2C2681DC43B}" path="CloseBrowser.js" />
+	</children>
+</Root>

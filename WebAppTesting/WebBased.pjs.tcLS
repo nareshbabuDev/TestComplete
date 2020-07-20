@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
+				<Prp name="default project" type="S" value="{F8167160-BDBA-473D-9CF3-A6D0039E3260}"/>
+			</Node>
+			<Node name="{510de20d-2479-4d7d-8db5-984948ae7a94}">
+				<Prp name="relpath" type="S" value="sample\sample.mds.tcLS"/>
+			</Node>
+			<Node name="{bcfa3e27-1f6a-4cd8-91f8-1d3a7cba8a71}">
+				<Prp name="relpath" type="S" value="..\TestComplete-master\TestComplete-master\launch and close ie\LaunchAndCloseIE.mds.tcLS"/>
+			</Node>
+			<Node name="{f8167160-bdba-473d-9cf3-a6d0039e3260}">
+				<Prp name="relpath" type="S" value="FrameworkIn5Mins\_Excel Driven Run.mds.tcLS"/>
+			</Node>
+			<Node name="envmngrlogs">
+				<Prp name="key" type="S" value="{A7870B54-3201-451A-A30C-63153B1047C7}"/>
+			</Node>
+			<Node name="logs">
+				<Prp name="key" type="S" value="{FD228D0A-5BA0-4771-A802-353E0A8EE917}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables"/>
+		</Node>
+		<Prp name="signature" type="S" value="{71078212-FAEB-4856-A901-B237C89E6B5C}"/>
+	</Node>
+</Nodes>

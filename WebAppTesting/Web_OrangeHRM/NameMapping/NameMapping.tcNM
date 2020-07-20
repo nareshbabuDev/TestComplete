@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="6" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
+		<Children>
+			<Child Name="Sys" Key="{BE4497B9-B6E3-462C-AF9B-DC8F1A22AD5F}" ParallelWalk="True">
+				<Properties>
+					<Property Name="Name">
+						<Value PropertyType="0" Value="Sys" Type="5" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{8DE647EB-80F0-4D7C-B98C-1862CF392A5A}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value PropertyType="0" Value="Browser" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageOrangehrm" Key="{4AF3DF6C-7AF9-4D83-80F9-85543EBE4EE3}" ParallelWalk="True">
+								<Image FileName="-1673985675" Left="0" Top="103" Right="1360" Bottom="728" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="https://opensource-demo.orangehrmlive.com/" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formFrmlogin" Key="{362B8C7C-F1C0-47F6-8941-AF79B069270A}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="1522003805" Left="626" Top="358" Right="1650" Bottom="748" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Form" Type="5" />
+											</Property>
+											<Property Name="idStr">
+												<Value PropertyType="0" Value="frmLogin" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="textnode" Key="{194A8841-ECD2-4FDC-9485-DF4AC1740DD7}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="1522003805" Left="627" Top="468" Right="694" Bottom="488" />
+												<TypeInfo Item0="{DECE44DA-5691-4186-9C20-9F574AF329B2}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="TextNode" Type="5" />
+													</Property>
+													<Property Name="contentText">
+														<Value PropertyType="0" Value="Username" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="textboxTxtusername" Key="{1E698D93-B54E-4CC2-B2BA-828BFE6AF034}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="-2027027225" Left="626" Top="471" Right="858" Bottom="487" />
+												<TypeInfo Item0="{13CF1304-62CF-492D-8B75-3012EBB55C69}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Textbox" Type="5" />
+													</Property>
+													<Property Name="idStr">
+														<Value PropertyType="0" Value="txtUsername" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="passwordboxTxtpassword" Key="{83ED2926-D0F9-480F-9DC8-BD9514727E2A}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="33230999" Left="626" Top="522" Right="858" Bottom="538" />
+												<TypeInfo Item0="{13CF1304-62CF-492D-8B75-3012EBB55C69}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="PasswordBox" Type="5" />
+													</Property>
+													<Property Name="idStr">
+														<Value PropertyType="0" Value="txtPassword" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="submitbuttonLogin" Key="{A5AC0C8F-FBA8-4422-9E0A-4332FC56A9C7}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="-1884252456" Left="626" Top="563" Right="720" Bottom="589" />
+												<TypeInfo Item0="{F9F99FF9-C130-4508-9500-EFC624FEBA54}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="SubmitButton" Type="5" />
+													</Property>
+													<Property Name="idStr">
+														<Value PropertyType="0" Value="btnLogin" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageDashboard" Key="{90C0EC68-EF77-4703-B87A-414B3C52DAF3}" ParallelWalk="True">
+								<Image FileName="-1673985675" Left="0" Top="103" Right="1360" Bottom="728" />
+								<TypeInfo Item0="{B8778714-F4CF-48AC-94BB-8858D48F0398}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="https://opensource-demo.orangehrmlive.com/index.php/dashboard" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkWelcome" Key="{A206FE8A-F823-40CC-9893-FD1E2C4AF8DF}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="-1943264478" Left="1191" Top="171" Right="1318" Bottom="187" />
+										<TypeInfo Item0="{DECE44DA-5691-4186-9C20-9F574AF329B2}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Link" Type="5" />
+											</Property>
+											<Property Name="idStr">
+												<Value PropertyType="0" Value="welcome" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="link" Key="{FA41A098-FAA7-4F66-A887-6A9853759D2A}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="-354753279" Left="1189" Top="218" Right="1229" Bottom="233" />
+										<TypeInfo Item0="{DECE44DA-5691-4186-9C20-9F574AF329B2}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Link" Type="5" />
+											</Property>
+											<Property Name="contentText">
+												<Value PropertyType="0" Value="Logout" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageLogin" Key="{51DE0003-9083-4104-A5EB-D8A7F7470F58}" ParallelWalk="True">
+								<Image FileName="-1943264478" Left="0" Top="103" Right="1360" Bottom="728" />
+								<TypeInfo Item0="{B8778714-F4CF-48AC-94BB-8858D48F0398}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="https://opensource-demo.orangehrmlive.com/index.php/auth/login" Type="5" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{8DE647EB-80F0-4D7C-B98C-1862CF392A5A}">
+			<Child Name="pageOrangehrm" Owner="{4AF3DF6C-7AF9-4D83-80F9-85543EBE4EE3}">
+				<Child Name="formFrmlogin" Owner="{362B8C7C-F1C0-47F6-8941-AF79B069270A}">
+					<Child Name="textnode" Owner="{194A8841-ECD2-4FDC-9485-DF4AC1740DD7}" />
+					<Child Name="textboxTxtusername" Owner="{1E698D93-B54E-4CC2-B2BA-828BFE6AF034}" />
+					<Child Name="passwordboxTxtpassword" Owner="{83ED2926-D0F9-480F-9DC8-BD9514727E2A}" />
+					<Child Name="submitbuttonLogin" Owner="{A5AC0C8F-FBA8-4422-9E0A-4332FC56A9C7}" />
+				</Child>
+			</Child>
+			<Child Name="pageDashboard" Owner="{90C0EC68-EF77-4703-B87A-414B3C52DAF3}">
+				<Child Name="linkWelcome" Owner="{A206FE8A-F823-40CC-9893-FD1E2C4AF8DF}" />
+				<Child Name="link" Owner="{FA41A098-FAA7-4F66-A887-6A9853759D2A}" />
+			</Child>
+			<Child Name="pageLogin" Owner="{51DE0003-9083-4104-A5EB-D8A7F7470F58}" />
+		</Child>
+	</LogicalNodes>
+</Root>

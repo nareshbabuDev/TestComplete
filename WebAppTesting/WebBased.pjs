@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{E20D5BE2-F242-4AC0-A4D3-4219098F4735}">
+	<children>
+		<child name="_Excel Driven Run" key="{F8167160-BDBA-473D-9CF3-A6D0039E3260}" path="FrameworkIn5Mins\_Excel Driven Run.mds" />
+		<child name="LaunchAndCloseIE" key="{BCFA3E27-1F6A-4CD8-91F8-1D3A7CBA8A71}" path="..\TestComplete-master\TestComplete-master\launch and close ie\LaunchAndCloseIE.mds" />
+		<child name="sample" key="{510DE20D-2479-4D7D-8DB5-984948AE7A94}" path="sample\sample.mds" />
+	</children>
+	<testItems key="{F5C52303-E74A-4696-A581-6B31CEDD659D}">
+		<children>
+			<testItem key="{F8167160-BDBA-473D-9CF3-A6D0039E3260}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{BCFA3E27-1F6A-4CD8-91F8-1D3A7CBA8A71}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{510DE20D-2479-4D7D-8DB5-984948AE7A94}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{D6721D6E-BFDD-4EB1-AB86-B6B64FB45DD0}">
+		<data Version="3" />
+	</variables>
+	<analysis key="{6D5F12CD-27F8-40B0-B9A7-83311B07B235}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}">
+		<CrossBrowserTesting Enable="False" />
+	</extender>
+</Root>
